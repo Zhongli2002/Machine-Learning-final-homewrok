@@ -1,0 +1,29 @@
+Model,Task,Size,Runs,MSE_Mean,MSE_Std,MAE_Mean,MAE_Std,RMSE_Mean,RMSE_Std
+LSTM,Short,Standard,5,303286.00,0.00,434.86,0.00,550.71,0.00
+LSTM,Long,Standard,5,169565.61,0.00,314.96,0.00,411.78,0.00
+LSTM,Short,Large,5,257578.30,0.00,402.03,0.00,507.52,0.00
+LSTM,Long,Large,5,230105.42,0.00,375.88,0.00,479.69,0.00
+Transformer,Short,Standard,5,232813.92,0.00,383.26,0.00,482.51,0.00
+Transformer,Long,Standard,5,267070.81,0.00,403.40,0.00,516.79,0.00
+Transformer,Short,Large,5,224744.66,0.00,379.55,0.00,474.07,0.00
+Transformer,Long,Large,5,235395.30,0.00,383.49,0.00,485.18,0.00
+Informer,Short,Standard,5,306753.56,0.00,439.08,0.00,553.85,0.00
+Informer,Long,Standard,5,259956.06,62.34,397.18,0.05,509.86,0.06
+Informer,Short,Large,5,279068.75,42885.30,416.34,32.23,526.73,40.26
+Informer,Long,Large,5,323481.85,74337.93,446.13,60.26,565.00,65.22
+MoE V2,Short,Standard,5,253136.59,9.98,401.81,0.01,503.13,0.01
+MoE V2,Long,Standard,5,228259.09,181.45,373.44,0.17,477.76,0.19
+MoE V2,Short,Large,5,252234.83,5.23,402.34,0.00,502.23,0.01
+MoE V2,Long,Large,5,261552.92,158.33,399.42,0.13,511.42,0.15
+Enhanced LSTM,Short,Standard,5,295393.28,0.00,428.09,0.00,543.50,0.00
+Enhanced LSTM,Long,Standard,5,160149.47,0.00,306.67,0.00,400.19,0.00
+Enhanced LSTM,Short,Large,5,203682.47,0.00,358.49,0.00,451.31,0.00
+Enhanced LSTM,Long,Large,5,173310.89,0.00,320.33,0.00,416.31,0.00
+Enhanced Transformer,Short,Standard,5,223890.00,46.03,370.36,0.04,473.17,0.05
+Enhanced Transformer,Long,Standard,5,232226.79,125.23,375.79,0.12,481.90,0.13
+Enhanced Transformer,Short,Large,5,219473.78,0.01,369.34,0.00,468.48,0.00
+Enhanced Transformer,Long,Large,5,202360.86,0.00,347.27,0.00,449.85,0.00
+Innovative Model,Short,Standard,5,256285.44,3933.97,398.53,3.46,506.23,3.90
+Innovative Model,Long,Standard,5,311395.74,25178.56,439.00,21.39,557.54,23.31
+Innovative Model,Short,Large,5,234008.27,30546.92,382.17,26.16,482.68,32.06
+Innovative Model,Long,Large,5,251718.91,289.93,397.10,0.28,501.72,0.29
